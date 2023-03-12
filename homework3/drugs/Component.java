@@ -1,5 +1,7 @@
 package drugs;
 
+import java.util.Objects;
+
 public class Component {
     private String name;
     private String weight;
@@ -37,11 +39,21 @@ public class Component {
 
     @Override
     public String toString() {
-        return "Component{" +
-                "name='" + name + '\'' +
-                ", weight='" + weight + '\'' +
-                ", power=" + power +
-                '}';
+        return String.format("Name: %s, weight: %s, power: %d", getName(),getWeight(),getPower());
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        Component c = (Component) o;
+        return this.name == c.name
+                && this.weight == c.weight
+                && this.power == c.power;
+
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, weight, power);
     }
 }
 

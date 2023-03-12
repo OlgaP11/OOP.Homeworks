@@ -41,15 +41,22 @@ public abstract class Drug implements Iterable <Component>, Comparable<Drug> {
     @Override
     public int compareTo(Drug o) {
         int power = getDrugPower();
-        return Integer.compare(power, o.getDrugPower());
+        if (power == o.getDrugPower()){
+            if (components.equals(o))
+                return 0;
+            else
+                return 1;
+        }
+        else if (power > o.getDrugPower())
+            return 1;
+        else
+            return -1;
+
     }
 
     @Override
     public String toString() {
-        return "Drug{" +
-                "components=" + components +
-                ", index=" + index +
-                '}'+getDrugPower()+"\n";
+        return "Drug's components: " + components +"power of drug = "+getDrugPower()+"\n";
     }
 }
 

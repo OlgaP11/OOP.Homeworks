@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d49d53a-ba74-49ca-875e-1f382f4aba7d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drugs/Drug.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drugs/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/drugs/Component.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drugs/Drug.java" beforeDir="false" afterPath="$PROJECT_DIR$/drugs/Drug.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drugs/impl/components/Pinicilin.java" beforeDir="false" afterPath="$PROJECT_DIR$/drugs/impl/components/Penicillin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,12 +41,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="drugs.impl" />
