@@ -8,13 +8,17 @@ public class Main {
         gbList.add(2);
         gbList.add(3);
         gbList.add(4);
+        gbList.add(5);
+        gbList.add(6);
+        gbList.add(7);
+
         System.out.printf("Size = %d\n", gbList.size());
-        System.out.printf("Elem = %d\n", gbList.get(2));
-        for (Integer num: gbList) {
-            System.out.printf("%d ", num);
-        }
-        System.out.println();
-        gbList.remove(2);
+        System.out.println(gbList);
+
+        gbList.remove(5);
+        System.out.println(gbList);
+
+        gbList.update(3,10);
         System.out.println(gbList);
     }
 }
